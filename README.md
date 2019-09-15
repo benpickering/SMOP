@@ -9,7 +9,7 @@ The package has two main functions: `smop` and `asmop`.
 * `smop` performs the original SMOP method without any efficiency modifications. This can become very slow for even moderately-sized problems (series with more than 50 observations and 3 variables). It is included mainly for academic purposes, and is not recommended for general use. 
 * `asmop` performs Approximate SMOP, which contains a number of modifications which improve the speed of SMOP drastically with only a minor potential reduction in accuracy (see [[1](#references)] for more details on these). We recommend using this function, and controlling its behaviour using its input arguments. 
 
-See the documentation in the package (`?asmop` and `?smop`) for the more details on these function and examples. Note that these functions will likely be combined in the future. 
+See the documentation in the package (`?asmop` and `?smop`) for the more details on these function and examples. Note that these functions may be combined in the future. 
 
 ## Package ##
 
