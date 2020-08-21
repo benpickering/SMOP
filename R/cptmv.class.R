@@ -85,7 +85,7 @@ setMethod(f = "plot", signature = "cptmv",
               if(cpt.type=="mean" || cpt.type=="mean and variance"){
                 means = numeric(length(cpts.current.var)+1)
                 for(i in 2:(length(cpts.temp))){
-                  means[i-1] = mean(data[(cpts.temp[i-1]+1):cpts.temp[i],pan.num])
+                  means[i-1] = mean(data.set[(cpts.temp[i-1]+1):cpts.temp[i],pan.num])
                   segments(y0=means[i-1], x0=(cpts.temp[i-1]), x1=cpts.temp[i], col="red", lty="solid", lwd=1)
                 }
               }
