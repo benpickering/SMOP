@@ -3,8 +3,8 @@ Type: Package
 Title: Subset Multivariate Optimal Partitioning
 Version: 0.1.1
 Date: 2019-09-14
-Author: Ben Pickering <benpickering1@gmail.com>
-Maintainer: Ben Pickering <benpickering1@gmail.com>
+Author: Benjamin Pickering <benpickering1@gmail.com>
+Maintainer: Benjamin Pickering <benpickering1@gmail.com>
 Description: Implements the Subset Multivariate Optimal Partitioning (SMOP) algorithm, a procedure for finding multiple changepoints within multivariate data as well as the variables in which the changes occur. Both exact and approximate methods are included.
 License: GPL (>=2)
 LazyData: TRUE
